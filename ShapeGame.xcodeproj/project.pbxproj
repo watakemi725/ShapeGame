@@ -199,6 +199,7 @@
 				TargetAttributes = {
 					466241131C99804B00236C13 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = WQXZ564XF2;
 					};
 					466241271C99804B00236C13 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -405,10 +406,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ShapeGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SG.ShapeGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -416,10 +420,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ShapeGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SG.ShapeGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -490,6 +497,7 @@
 				4662413E1C99804C00236C13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4662413F1C99804C00236C13 /* Build configuration list for PBXNativeTarget "ShapeGameTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +506,7 @@
 				466241411C99804C00236C13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		466241421C99804C00236C13 /* Build configuration list for PBXNativeTarget "ShapeGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +515,7 @@
 				466241441C99804C00236C13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
