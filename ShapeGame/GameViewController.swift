@@ -38,9 +38,6 @@ class GameViewController: UIViewController {
     }
     func loadBtn(){
         
-        
-        
-        
         for ( var i = 0; i < boxNum ; i++ ) {
             for ( var j = 0; j < boxNum ; j++ ) {
                 
