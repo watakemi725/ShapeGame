@@ -184,9 +184,7 @@ class GameViewController: UIViewController {
                 selectedBtn.backgroundColor = UIColor.blackColor()
             },
             completion: { (Bool) -> Void in
-                
 
-                
         })
     }
     
