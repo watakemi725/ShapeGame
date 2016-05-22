@@ -34,6 +34,8 @@ class GameViewController: UIViewController {
         loadBtn()
         randomChangeBtn()
         
+        
+        
         // Do any additional setup after loading the view.
     }
     func loadBtn(){
