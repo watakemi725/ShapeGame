@@ -39,7 +39,6 @@ class GameViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     func loadBtn(){
-        
         for ( var i = 0; i < boxNum ; i++ ) {
             for ( var j = 0; j < boxNum ; j++ ) {
                 
@@ -140,53 +139,53 @@ class GameViewController: UIViewController {
         
         // アニメーションの秒数を設定(1秒).
         UIView.animateWithDuration( 1.0,
-            
-            delay : 0.0,
-            
-            usingSpringWithDamping : 0.1,
-            
-            initialSpringVelocity : 0.5,
-            
-            options : UIViewAnimationOptions.CurveEaseIn,
-            
-            animations: { () -> Void in
-                
-                // 回転用のアフィン行列を生成.
-                
-                selectedBtn.transform = CGAffineTransformMakeRotation(angle)
-                selectedBtn.transform = CGAffineTransformIdentity
-                
-                //                self.btnBox[self.randomNum].transform = CGAffineTransformMakeScale(1.5, 1.5)
-                self.btnBox[self.randomNum].backgroundColor = UIColor.grayColor()
-                self.backcolor(self.btnBox[self.randomNum])
+                                    
+                                    delay : 0.0,
+                                    
+                                    usingSpringWithDamping : 0.1,
+                                    
+                                    initialSpringVelocity : 0.5,
+                                    
+                                    options : UIViewAnimationOptions.CurveEaseIn,
+                                    
+                                    animations: { () -> Void in
+                                        
+                                        // 回転用のアフィン行列を生成.
+                                        
+                                        selectedBtn.transform = CGAffineTransformMakeRotation(angle)
+                                        selectedBtn.transform = CGAffineTransformIdentity
+                                        
+                                        //                self.btnBox[self.randomNum].transform = CGAffineTransformMakeScale(1.5, 1.5)
+                                        self.btnBox[self.randomNum].backgroundColor = UIColor.grayColor()
+                                        self.backcolor(self.btnBox[self.randomNum])
             },
-            completion: { (Bool) -> Void in
-                
-                //                self.btnBox[self.randomNum].transform = CGAffineTransformMakeScale(1, 1)
-//                self.btnBox[self.randomNum].backgroundColor = UIColor.blackColor()
-                
-                
+                                    completion: { (Bool) -> Void in
+                                        
+                                        //                self.btnBox[self.randomNum].transform = CGAffineTransformMakeScale(1, 1)
+                                        //                self.btnBox[self.randomNum].backgroundColor = UIColor.blackColor()
+                                        
+                                        
         })
     }
     
     func backcolor(selectedBtn:UIButton){
         UIView.animateWithDuration( 1.5,
-            
-            delay : 1.0,
-            
-            usingSpringWithDamping : 0.5,
-            
-            initialSpringVelocity : 0.1,
-            
-            options : UIViewAnimationOptions.CurveEaseIn,
-            
-            animations: { () -> Void in
-                
-                //                self.btnBox[self.randomNum].transform = CGAffineTransformMakeScale(1.5, 1.5)
-                selectedBtn.backgroundColor = UIColor.blackColor()
+                                    
+                                    delay : 1.0,
+                                    
+                                    usingSpringWithDamping : 0.5,
+                                    
+                                    initialSpringVelocity : 0.1,
+                                    
+                                    options : UIViewAnimationOptions.CurveEaseIn,
+                                    
+                                    animations: { () -> Void in
+                                        
+                                        //                self.btnBox[self.randomNum].transform = CGAffineTransformMakeScale(1.5, 1.5)
+                                        selectedBtn.backgroundColor = UIColor.blackColor()
             },
-            completion: { (Bool) -> Void in
-
+                                    completion: { (Bool) -> Void in
+                                        
         })
     }
     
@@ -199,14 +198,14 @@ class GameViewController: UIViewController {
         
         // アニメーションの秒数を設定(1秒).
         UIView.animateWithDuration(1.0,
-            
-            animations: { () -> Void in
-                
-                // 回転用のアフィン行列を生成.
-                //                selectedBtn.transform = CGAffineTransformMakeScale(<#T##sx: CGFloat##CGFloat#>, <#T##sy: CGFloat##CGFloat#>)
-                selectedBtn.transform = CGAffineTransformIdentity
+                                   
+                                   animations: { () -> Void in
+                                    
+                                    // 回転用のアフィン行列を生成.
+                                    //                selectedBtn.transform = CGAffineTransformMakeScale(<#T##sx: CGFloat##CGFloat#>, <#T##sy: CGFloat##CGFloat#>)
+                                    selectedBtn.transform = CGAffineTransformIdentity
             },
-            completion: { (Bool) -> Void in
+                                   completion: { (Bool) -> Void in
         })
     }
     
@@ -220,15 +219,15 @@ class GameViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    /*
-    // MARK: - Navigation
     
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-    // Get the new view controller using segue.destinationViewController.
-    // Pass the selected object to the new view controller.
-    }
-    */
+    /*
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
     
 }
