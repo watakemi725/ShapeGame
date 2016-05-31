@@ -22,6 +22,8 @@ class GameViewController: UIViewController {
     
     var correctNum = 0
     
+    //角度配列
+    
     var angleArray = [2.0,4.0,6.0,8.0,10.0]
     
     override func viewDidLoad() {
