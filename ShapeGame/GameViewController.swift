@@ -107,7 +107,6 @@ class GameViewController: UIViewController {
         
         print(sender.tag)
         
-        
         if sender.tag == randomNum{
             print("正解!!")
             correctNum++
