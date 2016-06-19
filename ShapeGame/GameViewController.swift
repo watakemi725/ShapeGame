@@ -35,8 +35,7 @@ class GameViewController: UIViewController {
 //        print(myBoundSizeStr)
 //        loadBtn()
 //        randomChangeBtn()
-        
- 
+    
         // Do any additional setup afterloading the view.
     }
     func loadBtn(){
