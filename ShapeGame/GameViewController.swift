@@ -208,7 +208,6 @@ class GameViewController: UIViewController {
             completion: { (Bool) -> Void in
         })
     }
-    
     func allbtnAnimation(){
         for ( var j = 0; j < btnBox.count ; j++ ) {
             btnAnimation(btnBox[j])
