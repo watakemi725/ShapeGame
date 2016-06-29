@@ -30,6 +30,9 @@ class GameViewController: UIViewController {
         super.viewDidLoad()
       
         
+        
+        
+        
 //        myBoundSize = UIScreen.mainScreen().bounds.size
 //        myBoundSizeStr = "Bounds width: \(myBoundSize.width) height: \(myBoundSize.height)"
 //        print(myBoundSizeStr)
@@ -124,9 +127,7 @@ class GameViewController: UIViewController {
             print("うんこ!!")
             scoreLabel.text = "アウトーーー"
             
-            
         }
-        
         
     }
     
