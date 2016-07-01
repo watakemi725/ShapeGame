@@ -29,6 +29,9 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
+        
+        
+        
 //        myBoundSize = UIScreen.mainScreen().bounds.size
 //        myBoundSizeStr = "Bounds width: \(myBoundSize.width) height: \(myBoundSize.height)"
 //        print(myBoundSizeStr)
