@@ -32,14 +32,15 @@ class GameViewController: UIViewController {
         
         
         
-//        myBoundSize = UIScreen.mainScreen().bounds.size
-//        myBoundSizeStr = "Bounds width: \(myBoundSize.width) height: \(myBoundSize.height)"
-//        print(myBoundSizeStr)
-//        loadBtn()
-//        randomChangeBtn()
+        myBoundSize = UIScreen.mainScreen().bounds.size
+        myBoundSizeStr = "Bounds width: \(myBoundSize.width) height: \(myBoundSize.height)"
+        print(myBoundSizeStr)
+        loadBtn()
+        randomChangeBtn()
     
         // Do any additional setup afterloading the view.
     }
+    
     func loadBtn(){
         
         for ( var i = 0; i < boxNum ; i++ ) {
